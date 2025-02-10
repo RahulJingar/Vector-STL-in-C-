@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    vector<int>v={1,2,3,4,5} ;
+    if(v.empty())
+    {
+        cout<<"Vector is empty";
+    }
+    else
+    {
+        cout<<"Vector is not empty "<<v.size();
+    }
+    return 0;
+}
